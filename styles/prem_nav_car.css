@@ -1,0 +1,53 @@
+.navbar_wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    /* background: url(/img/party_hero.jpeg); */
+    /* height: 100vh; */
+    padding:35px 25px 0px 25px;
+}
+
+.navbar-default {
+    border: 2px solid transparent;
+    background-color:#ffffff57;
+    backdrop-filter: blur(10px);
+    
+    border-radius: 1.8rem;
+}
+
+.navbar-brand.nav_company_name{
+    color: #000000;
+}
+
+.navbar-default .navbar-center > li > a{
+    color: #000000;
+}
+
+.navbar-default .navbar-center {
+   padding-left: 20%;
+  }
+
+.navbar-default .navbar-right > li > a{
+    color: #000000;
+}
+
+.navbar-right .phone-number{
+    padding-left: 20px;
+}
+
+.carousel-inner > .item > img {
+   
+    min-width: 100%;
+    height: 500px;
+}
+
+
+
+/* .navbar-right li > a{
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}   */
+
