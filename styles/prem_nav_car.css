@@ -1,4 +1,8 @@
-.navbar_wrapper{
+body{
+    font-family: 'Lilita One', sans-serif;
+}
+
+.navbar_wrapper {
     position: absolute;
     top: 0;
     right: 0;
@@ -6,42 +10,86 @@
     z-index: 20;
     /* background: url(/img/party_hero.jpeg); */
     /* height: 100vh; */
-    padding:35px 25px 0px 25px;
+    padding: 35px 25px 0px 25px;
 }
 
 .navbar-default {
     border: 2px solid transparent;
-    background-color:#ffffff57;
+    background-color: #ffffff57;
     backdrop-filter: blur(10px);
-    
+
     border-radius: 1.8rem;
 }
 
-.navbar-brand.nav_company_name{
+.navbar-brand.nav_company_name {
     color: #000000;
 }
 
-.navbar-default .navbar-center > li > a{
+.navbar-default .navbar-center>li>a {
     color: #000000;
 }
 
 .navbar-default .navbar-center {
-   padding-left: 20%;
-  }
+    padding-left: 20%;
+}
 
-.navbar-default .navbar-right > li > a{
+.navbar-default .navbar-right>li>a {
     color: #000000;
 }
 
-.navbar-right .phone-number{
+.navbar-right .phone-number {
     padding-left: 20px;
 }
 
-.carousel-inner > .item > img {
+.jumbotron {
+    background-image: url(/img/hero2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.jumbotron .container {
+    margin-top: 15vh;
+}
+
+a.btn.btn-primary.btn-lg{
+    border: 2px solid transparent;
+    background-color: #ffffff57;
+    backdrop-filter: blur(10px);
+}
+
+
+.jello-horizontal {
+    animation: jello-horizontal 5s infinite;
+    }
+   
+
+    @keyframes jello-horizontal {
+      0%, 100% {
+        transform: scale3d(1, 1, 1);
+      }
+      30% {
+        transform: scale3d(1.25, 0.75, 1);
+      }
+      40% {
+        transform: scale3d(0.75, 1.25, 1);
+      }
+      50% {
+        transform: scale3d(1.15, 0.85, 1);
+      }
+      65% {
+        transform: scale3d(0.95, 1.05, 1);
+      }
+      75% {
+        transform: scale3d(1.05, 0.95, 1);
+      }
+    }
+/* .carousel-inner > .item > img {
    
     min-width: 100%;
     height: 500px;
-}
+} */
 
 
 
@@ -50,4 +98,3 @@
     border-radius: 50%;
     background-color: white;
 }   */
-
